@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ommi_library *.css
+recursive-include ommi_library *.csv
+recursive-include ommi_library *.html
+recursive-include ommi_library *.ico
+recursive-include ommi_library *.js
+recursive-include ommi_library *.json
+recursive-include ommi_library *.md
+recursive-include ommi_library *.png
+recursive-include ommi_library *.py
+recursive-include ommi_library *.svg
+recursive-include ommi_library *.txt
+recursive-exclude ommi_library *.pyc
